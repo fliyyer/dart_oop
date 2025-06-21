@@ -6,12 +6,15 @@
 # or consuming Dart code, and enforces writing Dart using a single, idiomatic
 # style and format.
 #
-# If you want a smaller set of lints you can change this to specify
+# If you want a smaller set of lints you can change this to Sspecify
 # 'package:lints/core.yaml'. These are just the most critical lints
 # (the recommended set includes the core lints).
 # The core lints are also what is used by pub.dev for scoring packages.
 
 include: package:lints/recommended.yaml
+analyzer:
+  errors:
+    file_names: ignore
 
 # Uncomment the following section to specify additional rules.
 
